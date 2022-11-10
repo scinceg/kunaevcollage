@@ -439,9 +439,11 @@ video {
 }
 
 footer {
-    height: 380px;
+    height: 350px;
     font-size: 15px;
-    font-family: 'Roboto', sans-serif;
+    /* font-family: 'Poppins', sans-serif; */
+    /* font-family: 'Arial', Times, serif; */
+    font-family: 'Montserrat';
     margin-top: 20px;
     width: 100%;
     background-color: #333;
@@ -492,13 +494,13 @@ footer {
 }
 
 .footer-title {
-    font-size: 18px;
-    font-family: 'Roboto';
+    font-size: 20px;
 }
 
 .footer-info {
     display: flex;
     align-items: center;
+    margin-top: 10px;
 }
 
 .footer-img-location {
@@ -513,7 +515,7 @@ footer {
 
 .footer-img-mail {
     margin-top: 10px;
-    margin-right: 10px;
+    margin-right: 12px;
 }
 
 .footer-img-networks {
@@ -728,26 +730,36 @@ footer hr {
     display: flex;
     flex-direction: column;
     align-items: center;
+    /* padding-left: 20px; */
+    position: relative;
 }
 
 .rev-slide-block img {
     width: 80%;
     margin-top: 30px;
 }
+
+.accounting{
+    position: absolute;
+    height: 235px;
+}
+
 .rev-slide-block-text {
-    margin-top: 30px;
+    position: absolute;
+    bottom: 90px;
     font-family: 'Exo 2', sans-serif;
-    font-size: 18px;
+    font-size: 19px;
     line-height: 26px;
     color: #444;
     font-weight: 500;
+
 }
 
 .rev-slide-block svg {
-    margin-right: 73%;
-    margin-top: 60px;
-    font-size: 40px;
-    width: 100px;
+    position: absolute;
+    font-size: 80px;
+    bottom: 20px;
+    left: 8%;
 }
 
 .rev-slide-text {
